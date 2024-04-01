@@ -28,7 +28,7 @@ Enumerates program capabilities and malicious behaviors using fragment analysis.
 * yara 4.3+ library - you can use this one-liner to install it if necessary:
   
 ```shell
-brew install yara || sudo apt install libyara-devel \
+apk add yara || brew install yara || sudo apt install libyara-devel \
   || sudo dnf install yara-devel || sudo pacman -S yara
 ```
 
@@ -172,5 +172,5 @@ ld: library 'yara' not found
 You'll need to install the `yara` C library:
 
 ```
-brew install yara || sudo apt install libyara-devel || sudo dnf install yara-devel || sudo pacman -S yara
+apk add yara || brew install yara || sudo apt install libyara-devel || sudo dnf install yara-devel || sudo pacman -S yara
 ```
